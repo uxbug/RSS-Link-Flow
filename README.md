@@ -88,7 +88,7 @@ npm run build
 ## 傻翠的朋友 list
 
 | 名称               | 网站                           | 描述（选填）                   | 头像（默认为/favicon.ico）                                                                             | RSS（默认为/feed）                        | 分类      |
-| ------------------ | ------------------------------ | ------------------------------ | ------------------------------------------------------------------------------------------------------ | ----------------------------------------- | --------- |
+|--------------------|--------------------------------|--------------------------------|--------------------------------------------------------------------------------------------------------|-------------------------------------------|-----------|
 | idealclover        | https://idealclover.top        | 是翠翠的个人网站！             |                                                                                                        |                                           | friend    |
 | NJU-LUG            | https://blogroll.njulug.org    |                                |                                                                                                        |                                           | friend    |
 | ZGQ's Blog         | https://blog.izgq.net          |                                |                                                                                                        |                                           | friend    |
@@ -116,7 +116,7 @@ npm run build
 | 辣椒の酱           | https://removeif.github.io     |                                | https://removeif.github.io/images/avatar.jpg                                                           | https://removeif.github.io/atom.xml       | net       |
 | BoBo               | https://hewanyue.com/          | BOHC is just a blog of hechao  | https://hewanyue.com/images/favicon.ico                                                                | https://hewanyue.com/atom.xml             | friend    |
 | Domon              | https://www.domon.cn           | Life is Simple.                |                                                                                                        | https://www.domon.cn/rss                  | net       |
-| BOHC!              | https://hewanyue.com           |                                |                                                                                                        |                                           | net       |
+| BOHC!              | https://hewanyue.com           |                                | https://hewanyue.com/images/favicon.ico                                                                |                                           | net       |
 | SangSir            | https://sangsir.com            |                                |                                                                                                        |                                           | net       |
 | 恶魔菌の记事簿     | https://meow3.family.blog      |                                |                                                                                                        |                                           | net       |
 | 蓝小柠的博客       | https://bleshi.com             | 是可爱的蓝孩子呀—              |                                                                                                        |                                           | net       |
