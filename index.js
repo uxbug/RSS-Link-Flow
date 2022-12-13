@@ -206,9 +206,9 @@ async function fetchWithTimeout(resource, options = {}) {
   // 按时间顺序排序
   dataJson.sort((itemA, itemB) => (itemA.pubDate < itemB.pubDate ? 1 : -1));
   // 默认为保存前 n 项的数据, 并保证不超过当前时间
-  for (let item of dataJsonCleaned) {
-    console.log(item.title);
-  }
+  // for (let item of dataJson) {
+  //   console.log(item.title);
+  // }
   const curDate = new Date();
   const dataJsonSliced = dataJson.filter((item) => item.pubDate <= curDate);
 
