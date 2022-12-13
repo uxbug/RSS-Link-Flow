@@ -124,9 +124,13 @@ async function fetchWithTimeout(resource, options = {}) {
 
   // 保存 linkList.json
   console.log(metaJson);
-  await fs.writeFileSync(linkListJsonPath, JSON.stringify(linkListJson, null, 2), {
-    encoding: "utf-8",
-  });
+  await fs.writeFileSync(
+    linkListJsonPath,
+    JSON.stringify(linkListJson, null, 2),
+    {
+      encoding: "utf-8",
+    }
+  );
 
   // 生成 opml.json
   const opmlJson = metaJson.map(
@@ -151,7 +155,7 @@ async function fetchWithTimeout(resource, options = {}) {
   fs.writeFileSync(opmlXmlPath, opmlXmlContent, { encoding: "utf-8" });
 
   // 用于存储各项数据
-  const dataJson = [];
+  dataJson = [];
 
   for (const lineJson of metaJson) {
     if (lineJson.xmlUrl == "") {
@@ -194,9 +198,17 @@ async function fetchWithTimeout(resource, options = {}) {
     }
   }
 
+  // 去重
+  // https://stackoverflow.com/questions/23507853/remove-duplicate-objects-from-json-array
+  dataJson = dataJson.filter(
+    (arr, index, self) => index === self.findIndex((t) => t.title === arr.title)
+  );
   // 按时间顺序排序
   dataJson.sort((itemA, itemB) => (itemA.pubDate < itemB.pubDate ? 1 : -1));
   // 默认为保存前 n 项的数据, 并保证不超过当前时间
+  for (let item of dataJsonCleaned) {
+    console.log(item.title);
+  }
   const curDate = new Date();
   const dataJsonSliced = dataJson.filter((item) => item.pubDate <= curDate);
 
