@@ -185,7 +185,7 @@ async function fetchWithTimeout(resource, options = {}) {
               pubDateYYMMDD: pubDate.toISOString().split("T")[0],
               pubDateMMDD: pubDate.toISOString().split("T")[0].slice(5),
               pubDateYY: pubDate.toISOString().slice(0, 4),
-              pubDateMM: pubDate.toISOString.slice(5, 7),
+              pubDateMM: pubDate.toISOString().slice(5, 7),
             };
           })
       );
