@@ -235,7 +235,7 @@ async function fetchWithTimeout(resource, options = {}) {
   } catch (err) {
       console.log(err);
       console.log("-------------------------");
-      console.log("pubDate: " + pubDate);
+      console.log("pubDate: " + feed.pubDate);
       console.log("-------------------------");
   }
 
