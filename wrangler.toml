@@ -4,7 +4,7 @@ type = "webpack"
 account_id = "926f2fe90d26d5cf7eb6003d74611b9d"
 workers_dev = true
 # route = "blogroll.icl.moe/*"
-zone_id = "374cfa163417e4f4a64edb66a0ddc218"
+# zone_id = "374cfa163417e4f4a64edb66a0ddc218"
 
 [site]
 bucket = "./web/dist"
