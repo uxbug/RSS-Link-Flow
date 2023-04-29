@@ -10,7 +10,7 @@ const RSS = require("rss");
 // TODO: 需要重点关注和修改的配置
 const opmlXmlContentTitle = "RSS Link Flow";
 const maxDataJsonItemsNumberForWeb = 120; // 保存前 120 项
-const maxDataJsonItemsNumberForRSS = 40; // 对RSS保存前 40 项
+const maxDataJsonItemsNumberForRSS = 50; // 对RSS保存前 40 项
 var feed = new RSS({
   title: "RSS Link Flow",
   description: "Security INFO RSS Link Flow",
