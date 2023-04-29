@@ -230,8 +230,14 @@ async function fetchWithTimeout(resource, options = {}) {
       encoding: "utf-8",
     }
   );
-
-  feed.pubDate = dataJson[0].pubDate;
+  try{
+    feed.pubDate = dataJson[0].pubDate;
+  } catch (err) {
+      console.log(err);
+      console.log("-------------------------");
+      console.log("pubDate: " + pubDate);
+      console.log("-------------------------");
+  }
 
   //整理 RSS 数据
   for (let item of dataJsonSlicedForRSS) {
