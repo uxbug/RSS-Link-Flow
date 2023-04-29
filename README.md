@@ -11,6 +11,6 @@
 |          绿盟           |               http://blog.nsfocus.net/               |          绿盟           |                            |               http://blog.nsfocus.net/feed                | rss  |
 |  Portswigger Research   |          https://portswigger.net/research/           |  Portswigger Research   |                            |           https://portswigger.net/research/rss            | rss  |
 |       TrustedSec        |             https://www.trustedsec.com/              |       TrustedSec        |                            |             https://www.trustedsec.com/feed/              | rss  |
-|      f-secure Blog      | https://blog.f-secure.com/category/threats-research/ |      F-Secure Blog      |                            | https://blog.f-secure.com/category/threats-research/feed/ | rss  |
+|      F-Secure Blog      | https://blog.f-secure.com/category/threats-research/ |      F-Secure Blog      |                            | https://blog.f-secure.com/category/threats-research/feed/ | rss  |
 |      Acunetix Blog      |            https://www.acunetix.com/blog/            |      Acunetix Blog      |                            |            https://www.acunetix.com/blog/feed/            | rss  |
-|    CobaltStrike Blog    |            https://www.cobaltstrike.com/             |    CobaltStrike Blog    |                            |            https://www.cobaltstrike.com/feed/             | rss  |
+|      TheHackerNews      |              https://thehackernews.com/              |      TheHackerNews      |                            |        https://feeds.feedburner.com/TheHackersNews        | rss  |
