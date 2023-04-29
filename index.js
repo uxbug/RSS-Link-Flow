@@ -8,19 +8,19 @@ const RSS = require("rss");
 // const HttpsProxyAgent = require("https-proxy-agent");
 
 // TODO: 需要重点关注和修改的配置
-const opmlXmlContentTitle = "idealclover Blogroll";
+const opmlXmlContentTitle = "RSS Link Flow";
 const maxDataJsonItemsNumberForWeb = 120; // 保存前 120 项
 const maxDataJsonItemsNumberForRSS = 40; // 对RSS保存前 40 项
 var feed = new RSS({
-  title: "idealclover 友链屋",
-  description: "翠翠和他的朋友们的blog，不代表翠翠本人观点",
+  title: "RSS Link Flow",
+  description: "Security INFO RSS Link Flow",
   feed_url: "https://blogroll.icl.moe/rss.xml",
   site_url: "https://blogroll.icl.moe/",
   image_url: "https://blogroll.icl.moe/assets/logo.png",
   docs: "https://blogroll.icl.moe",
-  managingEditor: "idealclover",
-  webMaster: "idealclover",
-  copyright: "2022 idealclover",
+  managingEditor: "Anonymous",
+  webMaster: "Anonymous",
+  copyright: "2023 Anonymous",
   language: "cn",
   ttl: "60",
 });
