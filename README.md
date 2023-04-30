@@ -14,3 +14,4 @@
 |      F-Secure Blog      | https://blog.f-secure.com/category/threats-research/ |      F-Secure Blog      |                            | https://blog.f-secure.com/category/threats-research/feed/ | rss  |
 |      Acunetix Blog      |            https://www.acunetix.com/blog/            |      Acunetix Blog      |                            |            https://www.acunetix.com/blog/feed/            | rss  |
 |      TheHackerNews      |              https://thehackernews.com/              |      TheHackerNews      |                            |        https://feeds.feedburner.com/TheHackersNews        | rss  |
+|       NetSpi Blog       |        https://www.netspi.com/blog/technical/        |       NetSpi Blog       |                            |        https://www.netspi.com/blog/technical/feed/        | rss  |
