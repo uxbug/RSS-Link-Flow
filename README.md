@@ -16,3 +16,4 @@
 |      TheHackerNews      |              https://thehackernews.com/              |      TheHackerNews      |                            |        https://feeds.feedburner.com/TheHackersNews        | rss  |
 |       NetSpi Blog       |        https://www.netspi.com/blog/technical/        |       NetSpi Blog       |                            |        https://www.netspi.com/blog/technical/feed/        | rss  |
 |    Cisco Talos Blog     |         https://blog.talosintelligence.com/          |    Cisco Talos Blog     |                            |          https://blog.talosintelligence.com/rss/          | rss  |
+|  Securelist Kaspersky’s threat research and report  |  https://securelist.com/  |  Securelist Kaspersky’s threat research and report |       |          https://securelist.com/feed/          | rss  |
