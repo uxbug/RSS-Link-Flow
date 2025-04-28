@@ -16,7 +16,7 @@ jobs:
           - 18.x
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           # 令 GitHub 在 git clone 和 git checkout 后「忘记」使用的 credentials。
           # 如果之后需要以另外的身份（如你的 GitHub Bot）执行 git push 操作时（如部署到 GitHub Pages），必须设置为 false。
@@ -27,7 +27,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
       # 缓存 node_modules，缓存机制参见 GitHub 文档：https://help.github.com/en/actions/configuring-and-managing-workflows/caching-dependencies-to-speed-up-workflows
       - name: Cache node_modules
-        uses: actions/cache@v1 # 使用 GitHub 官方的缓存 Action。
+        uses: actions/cache@v3 # 使用 GitHub 官方的缓存 Action。
         env:
           cache-name: blogroll-node-modules
         with:
